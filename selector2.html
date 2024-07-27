@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /*
+         -------------attribute selector[attribute] and value-------
+         ::attribute  value selector[attribute='one'] and attribute  one selector11111 1!1 1.[attribute='one']
+         2.attribute~  one two selector[attribute='one'] seperated with whitespace
+         3.attribute | one-two selector[attribute='one'] seperated with hyphen 
+         
+         ----------sub heading common------------
+         4::attribute first common[atr^=firstcom]
+         5::attribute last common[atr$=lastcom]
+         6::attribute middle common[atr*=middlecom]
+         
+         
+         
+        [class|="head"]hyphen(-)
+        [class~="head"]
+        [class^="he"]  value begin with specified 
+        [class$="n"] */
+        [class*="head"] 
+        
+        {
+            color: #ff0808;
+            background-color: rgba(95, 158, 160, 0.734);
+        }
+        /* [class="head2"]{
+            color: blueviolet;
+        } */
+
+    </style>
+</head>
+<body>
+    <h1 class="myhead1n">this is main head..</h1>
+    <h2 class="myhead2n">this is sub head..</h2>
+    <p class="mhead3n">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, cupiditate quam.</p>
+</body>
+</html>

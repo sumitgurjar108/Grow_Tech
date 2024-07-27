@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        color: blue;
+        background-color: rgba(27, 232, 221, 0.076);
+     }
+     .head{
+        color:red;
+     }
+     #text{
+        color: blanchedalmond;
+     }
+     .head, #text{
+          color: white;
+          background-color: gold;
+     }
+     
+     [type="text"]{
+        padding: 10px;
+        margin: 10px;
+        background-color: #dc143c;
+        border: 2px solid black;
+        color: yellow;
+        border-radius:20px;
+     }
+    </style>
+</head>
+<body>
+   
+    <h1>universal selector </h1>
+    <h2>this selector select whole tags</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus deserunt quae animi enim architecto totam sed quam at, adipisci, aliquam dolorum atque! Totam?</p>
+    <span>welcome to selector in css</span>
+
+    <h1 class="head"> class selector</h1>
+    <h3 class="head">its denoted by dot</h3>
+    <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ab quod cum!</p>
+    <span id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quas at?</span><br><br>
+
+    <input type="text" value="text" placeholder="enter text">
+    <input type="email" value="mail" placeholder="enter email">
+     <header target="xyz">Lorem ipsum dolor sit amet consectetur adipisicing.</header>
+    <h3 target="abc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, fuga aspernatur!</h3>
+    <footer target="pqr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, cumque excepturi?</footer>
+
+
+
+<!-- selector :-  select particular html element which has to be provide styling
+ Types:- umiversal ID class element attribute parent-child(combinator) grouping selector
+ attributes has around 6 variety:- 
+ single value, value with space,-hyphen,1st common,last common,any common.
+ combinator selector:-
+ descendent ,general sibling ,adjacent sibling,nth child selectors. 
+ The [attribute] selector is used to select elements with a specified attribute.
+ -->
+
+</body>
+</html>

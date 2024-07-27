@@ -1,0 +1,81 @@
+/* /* #para{
+    padding: 1%;
+    border: 2px solid red;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 5px;
+    width: 160px;
+    border-top: 3px solid blue;
+
+}
+.btn{
+    border-radius: 25%;
+}
+.btn:hover:hover{
+    background-color: red;
+    
+
+} */
+/* color name string (green.red),HEX value(#ff0000,#00ff00),RGB value(255,0,0)
+color pikr,color hunt sites
+rgba (rgb opacity)
+*/
+/* #paras{
+    background-color: #d1d3e3;
+    background-attachment: fixed; /*scroll,fixed.local*/
+    /*background-repeat: repeat-x;
+    background-clip: border-box;}/*padding box,content box*/
+/*
+.pg{
+    text-align: justify;
+    padding: 2%;
+
+}
+Day-2  ques.1 what is Box Model,& property,
+ ques.2 margin collapse,
+ margin collapse:- TOP-Bottom [collapse bigger value has prior] and marf=gin collapse can perform for adjacent elements. nor for other html elements,
+
+ left-right[total margin count],
+
+[4 properties-content ,padding->longhand,shorthand property,border,margin]
+ques.3 value of padding[1,2,3,4(clock-top,right,bottom,left),
+3[t and bottom same , l,r]
+2[t,l-r,b]
+
+ques4. absolute[doesn't change their values; px cm inch] and relative units[made by user; rem em percentage]
+
+MEDIA QUERY:-same code to another device/elements and to make responsive
+
+
+
+
+ */
+
+#one:link{color: aquamarine;
+
+}
+
+#one:visited{
+    color: brown;
+}
+#one:hover{
+    color: blue;
+}
+#one:active{
+    color: hsl(98, 90%, 52%);
+}
+#para{
+    font-family: cursive, serif;
+    word-spacing: 10px;
+    line-height: 33px;
+    font-stretch: 21px;
+    color: #f55713;
+    text-align: center;
+    text-decoration:none;
+    text-indent: 1px;
+    font-weight: bold;
+
+    text-shadow: 10%;
+    border: 1px solid red;
+
+
+}
